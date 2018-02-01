@@ -1,0 +1,98 @@
+@media(max-width: 1230px){
+  .top-header{
+    width: 1060px;
+    max-width: 100%;
+  }
+}
+
+@media(max-width: 1170px){
+  .top-header{
+    width: 975px;
+    max-width: 100%;
+  }
+}
+
+@media(max-width: 1090px){
+  .top-header{
+    width: 975px;
+    max-width: 100%;
+  }
+}
+
+@media(max-width: 990px){
+  .top-header{
+    width: 940px;
+    max-width: 100%;
+  }
+}
+
+
+@media(max-width: 950px){
+  .main-nav{
+    display: none;
+  }
+  .button-mob{
+    display: block;
+  }
+  .top-header{
+    justify-content: space-around;
+  }
+  .welcome-slider{
+    li{
+      height: 270px;
+    }
+    .slick-dots{
+      bottom: -360px;
+    }
+  }
+}
+
+@media(max-width: 840px){
+  .welcome-slider{
+    padding-left: 10%;
+  }
+}
+
+@media(max-width: 660px){
+  .welcome-slider{
+    padding-left: 0;
+    .slick-slide{
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .slick-prev, .slick-next {
+    &:before {
+      display: block;
+    }
+  }
+}
+
+@media(max-width: 750px){
+  .title-welcome-sm{
+    font-size: $welcome-title-sm - .1rem;
+  }
+  .title-welcome-bg{
+    font-size: $welcome-title-bg - 1rem;
+  }
+}
+
+
+
+@media(max-width: 600px) {
+  .header-contact {
+    display: none;
+  }
+}
+
+@media(max-width: 420px) {
+  .title-welcome-bg{
+    font-size: $welcome-title-bg - 1.7rem;
+  }
+}
+
+@media(max-width: 360px) {
+  .title-welcome-bg{
+    font-size: 1.2rem
+  }
+}
